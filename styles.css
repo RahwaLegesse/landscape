@@ -2,6 +2,7 @@
 *{
   box-sizing: border-box;
 }
+
 ul {
     list-style-type: none;
     justify-content: center;
@@ -28,6 +29,8 @@ ul {
     background-color: #111;
   }
   body{
+    background-image: url("6.avif");
+    background-repeat: no-repeat;
     background-color: rgb(220, 220, 222);
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -35,6 +38,7 @@ ul {
     padding-left: 10px;
     justify-content: center;
     text-align: center;
+    
    
   }
   .btn {
@@ -50,6 +54,7 @@ ul {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    margin-bottom: 20px;
   }
   
   .btn:hover {background-color: #3e8e41}
@@ -91,5 +96,20 @@ ul {
  .container-col .row .footer-col h5{
  font-weight: 900;
  } 
- 
+ div.features {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.con{
+  text-align: center;
+  padding: 10px 20px;
+}
+.container p{
+  text-align-last: left;
+}
+
+
  
