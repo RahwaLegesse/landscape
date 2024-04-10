@@ -5,7 +5,7 @@
 
 ul {
     list-style-type: none;
-    justify-content: center;
+    
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -17,8 +17,9 @@ ul {
   }
   
   li {
-    float: right;
+    float: left;
     font-weight: 900;
+    
     
   }
   
@@ -34,6 +35,28 @@ ul {
   li a:hover {
     background-color: #111;
   }
+  .ER{
+    padding: 20px;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 612px) {
+    .ER {
+      padding: 40px;
+      margin-top: 60px;
+    }
+    }
+    @media screen and (max-width: 352px) {
+      .ER {
+        padding: 60px;
+        margin-top: 80px;
+      }
+      }
+      @media screen and (max-width: 274px) {
+        .ER {
+          padding: 80px;
+          margin-top: 100px;
+        }
+        }
   body{
     background-image: url("6.avif");
     background-repeat: no-repeat;
@@ -116,6 +139,7 @@ div.con{
 .container p{
   text-align-last: left;
 }
+
 
 
  
